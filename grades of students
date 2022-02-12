@@ -1,0 +1,54 @@
+sno=int(input('enter number:'))
+sname=input('enter name:')
+sgroup=input('enter group:')
+s1=int(input('maths marhks:'))
+s2=int(input('chemistry marks:'))
+s3=int(input('computer seince:'))
+s4=int(input('sanskrit marks:'))
+s5=int(input('english:'))
+s6=int(input('ee marks'))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6
+if avg<=35:
+    print('fail')
+elif avg>91:
+    print('o grade')
+elif avg>81:
+    print('a grade')
+elif avg>71:
+    print('b grade')
+elif avg>61:
+    print('c grade')
+elif avg>51:
+    print('d grade')
+    
+ output:
+ enter no:
+ 1
+ enter name:
+  kalyan
+ enter group:
+ mccs
+ maths marks
+ 98
+ chemistry marks
+ 96
+ computer marks
+ 95
+ sanskrit marks
+ 99
+ english marks
+ 94
+ ee marks
+ 75
+ o grade
+ 
+    
+        
+    
+    
+        
+    
+    
+        
+        
